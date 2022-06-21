@@ -9,6 +9,17 @@ It's a best practice to use virtual environments for Python development. This ar
 [Introduction to Meraki Dashboard API](https://developer.cisco.com/meraki/api-v1/#!introduction/meraki-dashboard-api)  
 The certification guide is based on API v0 but that is EOL. So far everything in the book has worked correctly.
 
+[Cisco DNA Center Platform Overview](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview/cisco-dna-center-platform-overview)  
+Everything you need to know about DNA center APIs. After readning up to location 5095 in the ebook or page 193 in the print book, you should go to this URL and review.
+
+[DNA Sandbox](https://sandboxdnac2.cisco.com)  
+Username: devnetuser  
+password: Cisco123!  
+base64 encoding: ZGV2-bmV0dXNlcjpDaXNjbzEyMyE=  
+
+
+Note: Only chromium based browsers and Firefox are supported. The certificate is bad, when you get the warning type `thisisunsafe` without clicking on any of the buttons.  
+
 [Introduction to Postman](https://learning.postman.com/docs/getting-started/introduction/)  
 Repeated here in case you need a review!  
 
@@ -63,3 +74,10 @@ Notice that I used a single quote after the f and double quotes for the variable
     print(f'Network ID:, {NET.get("id") :20}, Name:, {NET.get("name") :45}, \
 Tags:, {str(NET.get("tags")) :<4}')
 ```
+
+### Basic Authentication
+In Postman, you can select Authorization when creating a new request. If you select basic you are prompted to enter a username and password. To see the base64 encoded version of this combination simple click on headers and the first header listed will be "Authorization"
+
+<p align="center" width="100%">
+    <img width="95%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/images/BasicAuth-in-Postman.png"> 
+</p>
