@@ -38,14 +38,18 @@ Name: {1:45s}
 means substitute the second variabale in format name, make this field 45 string characters wide.
 
 Tags: {2:<10s}  
-means substitute the third variabale in format tags, convert the type to string, left align it, make this field 10 string characters wide.
+means substitute the third variabale in format tags, left align it, make this field 10 string characters wide.
 
-These "String Formatters" allow the output to be aligned. 
+str(NET['tags']  
+This caused me some issues when I converted to use f strings. If you look at the value of the tags field it's the word "None" which is a python reserved word. I kept getting an error that I couldn't format the type None. I finally noticed that they had put the str() function on. I added that `{str(NET.get("tags"))` and it solved the problem.
+
+These "String Formatters" allow the output to reamain aligned as the Name varies. 
 
 ```
-               20 characters                           45 characters                         10 chars
-            12345678901234567890        123456789012345678901234567890123456789012345        1234567890
-Network ID: L_646829496481105433, Name: DevNet Sandbox ALWAYS ON                     , Tags: None 
+               20 characters                           45 characters                             10 chars
+             12345678901234567890         123456789012345678901234567890123456789012345          1234567890
+Network ID:, L_646829496481105433, Name:, DevNet Sandbox ALWAYS ON                      , Tags:, None 
+Network ID:, L_646829496481110685, Name:, Mike_test_vmx                                 , Tags:, None  
 
 Note that the "," gets printed but not counted. You can change it to any character. For example, here I chagned the "," after Network ID to a ";".
 Network ID: L_646829496481105433; Name: DevNet Sandbox ALWAYS ON                     , Tags: None
