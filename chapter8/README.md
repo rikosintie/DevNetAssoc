@@ -1,4 +1,4 @@
-# Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
+## Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
 
 Chapter 8 is all about the Meraki Cloud API and using the Meraki SDK. After an introduction the Meraki philosophy you log into the dashboard and create your API key. All access to the API requires the API key.
 
