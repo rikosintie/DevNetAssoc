@@ -51,7 +51,10 @@ Note that the "," gets printed but not counted. You can change it to any charact
 Network ID: L_646829496481105433; Name: DevNet Sandbox ALWAYS ON                     , Tags: None
 ```
 
-The print statement rewritten to use f strings
+
+**The print statement rewritten to use f strings**  
+Notice that I used a single quote after the f and double quotes for the variables. If you use single for both you wil get an error that the statement has an open {. It took me quite a while to figure that out!
+
 ```
     print(f'Network ID:, {NET.get("id") :20}, Name:, {NET.get("name") :45}, \
 Tags:, {str(NET.get("tags")) :<4}')
