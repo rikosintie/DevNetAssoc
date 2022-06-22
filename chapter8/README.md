@@ -19,7 +19,7 @@ Tips on common mistakes and environment variables.
 [DNA Sandbox](https://sandboxdnac2.cisco.com)  
 Username: devnetuser  
 password: Cisco123!  
-base64 encoding: ZGV2-bmV0dXNlcjpDaXNjbzEyMyE=  
+base64 encoding: ZGV2bmV0dXNlcjpDaXNjbzEyMyE=  
 
 
 Note: Only chromium based browsers and Firefox are supported. The certificate is bad, when you get the warning type `thisisunsafe` without clicking on any of the buttons.  
