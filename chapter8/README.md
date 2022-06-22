@@ -10,7 +10,11 @@ It's a best practice to use virtual environments for Python development. This ar
 The certification guide is based on API v0 but that is EOL. So far everything in the book has worked correctly.
 
 [Cisco DNA Center Platform Overview](https://developer.cisco.com/docs/dna-center/#!cisco-dna-center-platform-overview/cisco-dna-center-platform-overview)  
-Everything you need to know about DNA center APIs. After readning up to location 5095 in the ebook or page 193 in the print book, you should go to this URL and review.
+Everything you need to know about DNA center APIs. After readning up to location 5095 in the ebook or page 193 in the print book, you should go to this URL and review.  
+
+[dnacentersdk Quick Start](https://dnacentersdk.readthedocs.io/en/latest/api/quickstart.html)  
+Tips on common mistakes and environment variables.
+
 
 [DNA Sandbox](https://sandboxdnac2.cisco.com)  
 Username: devnetuser  
@@ -75,9 +79,25 @@ Notice that I used a single quote after the f and double quotes for the variable
 Tags:, {str(NET.get("tags")) :<4}')
 ```
 
-### Basic Authentication
+### Basic Authentication for DNA Center
 In Postman, you can select Authorization when creating a new request. If you select basic you are prompted to enter a username and password. To see the base64 encoded version of this combination simple click on headers and the first header listed will be "Authorization"
 
 <p align="center" width="100%">
     <img width="95%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/images/BasicAuth-in-Postman.png"> 
-</p>
+</p>  
+
+Here is the equivalent curl command:  
+
+`curl -X POST https://sandboxdnac2.cisco.com/dna/system/api/v1/auth/token -H 'Authorization: Basic ZGV2bmV0dXNlcjpDaXNjbzEyMyE='`
+
+If you want to create the encoding using a site like [base64encode](https://www.base64encode.org) just enter devnetuser:Cisco123! and click `ENCODE`
+
+**DNA Center with Python**  
+If you get an SSL error when executing your script add `verify=False` to the `api.DNACenterAPI` call:
+
+```
+DNAC = api.DNACenterAPI(username="devnetuser",
+                        password="Cisco123!",
+                        base_url="https://sandboxdnac2.cisco.com",
+                        verify=False)
+```
