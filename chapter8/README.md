@@ -47,13 +47,13 @@ The book has the entire script so you can just copy it. I was bit confused about
 `print("Network ID: {0:20s}, Name: {1:45s}, Tags: {2:<10s} ".format(NET['id'], NET['name'], str(NET['tags'])))`
 
 "network ID:" {0:20s}  
-means substitute the first variable in format id, make the field 20 string characters wide.
+means substitute the first variable in the format function (id), make the field 20 string characters wide.
 
 Name: {1:45s}  
-means substitute the second variabale in format name, make this field 45 string characters wide.
+means substitute the second variable in the format function (name), make this field 45 string characters wide.
 
 Tags: {2:<10s}  
-means substitute the third variabale in format tags, left align it, make this field 10 string characters wide.
+means substitute the third variabale in the format function (tags), left align it, make this field 10 string characters wide.
 
 str(NET['tags']  
 This caused me some issues when I converted to use f strings. If you look at the value of the tags field it's the word "None" which is a python reserved word. I kept getting an error that I couldn't format the type None. I finally noticed that they had put the str() function on. I added that `{str(NET.get("tags"))` and it solved the problem.
