@@ -1,14 +1,34 @@
+**Useful websites**  
+
+[VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)  
+This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
+   
 [Using Python environments in VS Code ](https://code.visualstudio.com/docs/python/environments)  
 I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell. I had been creating virtual python environments int the terminal but the DevNet guide recommended doing it in VSCode.   
 
 This article walks you through how to do it. The only thing I will add is that on the section ## Create a virtual environment it says:  
+
 ```
 # macOS/Linux
 # You may need to run sudo apt-get install python3-venv first
 python3 -m venv .venv
 ``` 
 
-DO THIS IN THE TERMINAL IN VSCode, not in your regular terminal.
+*DO THIS IN THE TERMINAL IN VSCode, not in your regular terminal.*
+
+[See unsaved changes in vscode](https://stackoverflow.com/questions/65874120/see-unsaved-changes-in-vscode)  
+Some good tips on editing unsaved files and using shortcuts in VSCode.  
+
+[Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)  
+Microsoft's marketplace for VSCode extensions. There are a lot of useful extensions for VScode here. Most are free.  
+
+[User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)  
+The official documentation on the VSCode User Interface. It's worth some time reviewing this page.  
+
+[Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)  
+I have had this happen a couple times with VScode on Mac and Linux. 
+
+
 
 ## Setting up the VSCode environment
 
@@ -44,3 +64,5 @@ To view the differences between the file on disk and the file in VScode, right c
 <p align="center" width="100%">
     <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-Compare.png"> 
 </p>  
+
+A second editor window will open up and the unsaved file will be on the right.
