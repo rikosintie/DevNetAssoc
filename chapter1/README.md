@@ -2,7 +2,7 @@
 
 
 <p align="left" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/DevNet-Exam-Topics.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/DevNet-Exam-Topics.png"> 
 </p>  
 
 Chapter 1 lays out why you should pursue the DevNet Associate certification. I will just say that automation isn't going away and if you stay in the field it's obvious that you are going to have to learn Python, Postman, and other tools of the developer. 
@@ -38,7 +38,7 @@ This seems like the same as the first link but it is actually different. This br
 * Compare/Describe ---- Not very deep, just the concept.     
 
 
-This link is a graphic from Cisco that shows the relative level of knowledge for each of those words. You should plan your study time around the pyramid.   [Cisco Exam Pyramid](https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/Cisco-Exam-Pyramid.png)  
+This link is a graphic from Cisco that shows the relative level of knowledge for each of those words. You should plan your study time around the pyramid.   [Cisco Exam Pyramid](https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/Cisco-Exam-Pyramid.png)  
 
 You can download the exam topics in PDF format [here](https://www.cisco.com/content/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf).  
 
