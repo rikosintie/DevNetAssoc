@@ -22,9 +22,13 @@ This is the place to go to find out what's on the exam. You can sign up for upda
 
 Amazingly, on this page they provide 10 free mini courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
 
-
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
 This seems like the same as the first link but it is actually different. You can download the exam topics in PDF format.  
+
+[Introducing the DevNet Associate Fundamentals Course](https://developer.cisco.com/certification/fundamentals/)  
+The DevNet Associate Fundamentals training course is a next generation learning experience, developed to help candidates like you, study and prepare for the DevNet Associate Certification Exam available on February 24, 2020. The course offers high-quality DevNet Certification-focused content in an interactive all-in-one learning experience that includes built-in integrated labs. The DevNet Associate Fundamentals course gives you access to the materials you need to successfully hone your skills and better prepare for the exam.
+
+1 month is $99, 3 months is $225, 6 months is $399. Renewals are $49 per month.
 
 [DevNet Associate Essentials Webinar Series](https://mkto.cisco.com/devnet-associate-essentials.html?utm_campaign=devnetassociate-essentials20&utm_source=web&utm_medium=cln)  
 Registration required but you get access to 3 recorded webinars. 
@@ -48,6 +52,9 @@ It does require registration, but Cisco already has your information so I don't 
 
 [DevNet Certifications Community](https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community)  
 A dedicated community where you can ask questions, try some practice question and just see what questions others have.  
+
+[Cisco Sandbox Labs](https://devnetsandbox.cisco.com)  
+Free sandboxes where you can practice.
 
 
 ### Cisco Videos  
