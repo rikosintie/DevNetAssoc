@@ -1,14 +1,22 @@
-## Chapter 1 Introduction to Cisco DevNet Associate Certification 
+## Chapter 1 Introduction to Cisco DevNet Associate Certification  
 
 
+<p align="left" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/DevNet-Exam-Topics.png"> 
+</p>  
 
 Chapter 1 lays out why you should pursue the DevNet Associate certification. I will just say that automation isn't going away and if you stay in the field it's obvious that you are going to have to learn Python, Postman, and other tools of the developer. 
 
 I earned my first Cisco CCNA in 2000. Back then there weren't many free or easily avaiable resources to help you out. But the times have changed! Cisco has built the DevNet program and offers hours of free videos, podcast, a GitHub repo, a reasonable priced ebook, print book combo that includes online flash cards and practice tests.
 
-I can honestly say that it feels like Cisco sees the DevNEt program as key to there success in a changing landscape.
+I can honestly say that it feels like Cisco sees the DevNEt program as key to their success in a changing landscape.
 
-With that said, here are the websites that I found useful to get started.
+I recommend that you spend an hour and watch this video before you start - [DevNet Associate Essentials Series – Episode 1](https://www.cisco.com/c/m/en_us/training-events/events-webinars/devnet-associate-part1.html)  
+I listened at 1.25 speed and it was completely understandable. In the past, I just bought the book and crammed until I felt comfortable with every topic. But this video describes a much more efficient approach.  
+
+
+
+Here are the websites that I found useful why studying.
 
 ## Useful Websites  
 
@@ -23,7 +31,16 @@ This is the place to go to find out what's on the exam. You can sign up for upda
 Amazingly, on this page they provide 10 free mini courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
 
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
-This seems like the same as the first link but it is actually different. You can download the exam topics in PDF format.  
+This seems like the same as the first link but it is actually different. This breaks the topics down by weight ana verb.   
+*       Design - You should be 
+* Troubleshoot
+*    Configure
+*     Describe
+
+
+This link is a graphic from Cisco that shows the relative level of knowledge for each of those words. You should plan your study time around the pyramid.   [Cisco Exam Pyramid](https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/Cisco-Exam-Pyramid.png)  
+
+You can download the exam topics in PDF format [here](https://www.cisco.com/content/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf).  
 
 [Introducing the DevNet Associate Fundamentals Course](https://developer.cisco.com/certification/fundamentals/)  
 The DevNet Associate Fundamentals training course is a next generation learning experience, developed to help candidates like you, study and prepare for the DevNet Associate Certification Exam available on February 24, 2020. The course offers high-quality DevNet Certification-focused content in an interactive all-in-one learning experience that includes built-in integrated labs. The DevNet Associate Fundamentals course gives you access to the materials you need to successfully hone your skills and better prepare for the exam.
