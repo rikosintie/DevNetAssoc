@@ -31,11 +31,11 @@ This is the place to go to find out what's on the exam. You can sign up for upda
 Amazingly, on this page they provide 10 free mini courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
 
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
-This seems like the same as the first link but it is actually different. This breaks the topics down by weight ana verb.   
-*       Design - You should be 
-* Troubleshoot
-*    Configure
-*     Describe
+This seems like the same as the first link but it is actually different. This breaks the topics down by weight and a verb.   
+* Design --------------- Complete knowledge of the topic
+* Troubleshoot --------- How do the parts fit together
+* Configure/construct -- Deeper knowledge, how to do something
+* Compare/Describe ---- Not very deep, just the concept.     
 
 
 This link is a graphic from Cisco that shows the relative level of knowledge for each of those words. You should plan your study time around the pyramid.   [Cisco Exam Pyramid](https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/Cisco-Exam-Pyramid.png)  
