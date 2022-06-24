@@ -51,8 +51,11 @@ A dedicated community where you can ask questions, try some practice question an
 
 
 ### Cisco Videos  
-[Learning Labs](https://developer.cisco.com/learning/search/labs/?keyword=reading%20a%20file&page=1&sortBy=luceneScore)  
+[Learning Labs NetDevOps](https://developer.cisco.com/learning/search/labs/?keyword=reading%20a%20file&page=1&sortBy=luceneScore)  
 A large collection of videos. Not all of them are focused on the certification but all of them are relavent to NetDevOps.  
+
+[Learning Lab Networking](https://developer.cisco.com/learning/search/categories/Networking/?contentType=lab&page=1)  
+
 
 [Programming Fundamentals](https://developer.cisco.com/video/net-prog-basics/01-programming_fundamentals)  
 These videos are awesome. I have watched the REST APIs Part 1 and 2 several times. If you are new to programming start with the "Data Formats: Understanding and using JSON, XML and YAML".  
