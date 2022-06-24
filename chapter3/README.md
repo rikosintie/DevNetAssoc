@@ -33,3 +33,16 @@ These two sites do a great job of explaining string formatting. The Cookbook has
 
 [Python's Built-in Functions](https://docs.python.org/3/library/functions.html)  
 There are a lot of built in functions in Python. This is the official python documentation on them. Normally, I find a function here and then Google it. I find the official docs hard to understand.  
+
+On the Intro to Devnet video, they had a drag and drop question. Here is the answer: 
+```
+virtualenv -p python3 <deired-path>  
+source <deired-path>/bin/activte
+```  
+But the book only discusses this syntax:
+```
+python3 m venv myvenv
+source myvenv/bin/activate
+``` 
+
+Maybe the exam has been updated? 
