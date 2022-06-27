@@ -1,10 +1,24 @@
 ## Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
 
-Chapter 8 is all about the Meraki Cloud API and using the Meraki SDK. After an introduction the Meraki philosophy you log into the dashboard and create your API key. All access to the API requires the API key.
+Chapter 8 introduces the Cisco Meraki Cloud Platform, Cisco DNA Center and Cisco SDWAN (Viptela). You learn to use the API and SDKs for each platform.
 
-**Useful websites**  
+
+After an introduction the Meraki philosophy you log into the dashboard and create your API key. All access to the API requires the API key.
+
+## Useful websites  
 [VSCode Virtual Environments](https://code.visualstudio.com/docs/python/environments)  
-It's a best practice to use virtual environments for Python development. This article explains how to set them up in VSCode. I made the mistake of creating the venv in the terminal, not in the VSCode terminal. I had to delete it and start over. But once you realize what to do it's identical, just create it in the VSCode terminal.
+It's a best practice to use virtual environments for Python development. This article explains how to set them up in VSCode. I made the mistake of creating the venv in the terminal, not in the VSCode terminal. I had to delete it and start over. But once you realize what to do it's identical, just create it in the VSCode terminal.  
+
+If you deactivate the venv and then want to work on the project again, you have to activate the venv and then tell VSCode to use the correct python interpreter.
+
+Select and activate an environment#
+By default, the Python extension looks for and uses the first Python interpreter it finds in the system path. To select a specific environment, use the Python: Select Interpreter command from the Command Palette (⇧⌘P).
+
+You should see the name of the venv and the word workspace on the right. Select that interepter.
+
+<p align="left" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter8/images/Python-Interpreter.png"> 
+</p> 
 
 [Introduction to Meraki Dashboard API](https://developer.cisco.com/meraki/api-v1/#!introduction/meraki-dashboard-api)  
 The certification guide is based on API v0 but that is EOL. So far everything in the book has worked correctly.
@@ -19,7 +33,7 @@ Tips on common mistakes and environment variables.
 [DNA Sandbox](https://sandboxdnac2.cisco.com)  
 Username: devnetuser  
 password: Cisco123!  
-base64 encoding: ZGV2bmV0dXNlcjpDaXNjbzEyMyE=  
+base64 encoding: ZGV2-bmV0dXNlcjpDaXNjbzEyMyE=  
 
 
 Note: Only chromium based browsers and Firefox are supported. The certificate is bad, when you get the warning type `thisisunsafe` without clicking on any of the buttons.  
@@ -47,13 +61,13 @@ The book has the entire script so you can just copy it. I was bit confused about
 `print("Network ID: {0:20s}, Name: {1:45s}, Tags: {2:<10s} ".format(NET['id'], NET['name'], str(NET['tags'])))`
 
 "network ID:" {0:20s}  
-means substitute the first variable in the format function (id), make the field 20 string characters wide.
+means substitute the first variable in format id, make the field 20 string characters wide.
 
 Name: {1:45s}  
-means substitute the second variable in the format function (name), make this field 45 string characters wide.
+means substitute the second variabale in format name, make this field 45 string characters wide.
 
 Tags: {2:<10s}  
-means substitute the third variabale in the format function (tags), left align it, make this field 10 string characters wide.
+means substitute the third variabale in format tags, left align it, make this field 10 string characters wide.
 
 str(NET['tags']  
 This caused me some issues when I converted to use f strings. If you look at the value of the tags field it's the word "None" which is a python reserved word. I kept getting an error that I couldn't format the type None. I finally noticed that they had put the str() function on. I added that `{str(NET.get("tags"))` and it solved the problem.
