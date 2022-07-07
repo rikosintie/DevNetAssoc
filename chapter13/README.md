@@ -22,6 +22,7 @@ Kindle Locations 9294-9300).
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-Cloud-Serice-Models.png"> 
 </p> 
 
+### Cloud deployment models
 
 * Private Cloud
 * Public Clouod
@@ -169,6 +170,18 @@ Cgroups, or control groups, are used to manage the resource consumption of each 
 **Union File System**  
 The Union File System is a foundational building block for a container. It is a file system service that was developed for Linux to allow different file systems to be layered on top of each other to create a combination, or union, of the various files to create a single merged representation of the contents. 
 Kindle Locations 9680-9682).  
+
+### Docker Architecture
+The Docker architecture consists of three primary parts: the client, the Docker host, and the docker registry.
+
+The Docker client is a command-line utility (run with the docker command) that talks to the REST API of the Docker daemon so that the administrator can issue commands for the operations and management of Docker containers. The client can communicate to a local or remote Docker instance. 
+(Kindle Locations 9704-9705).  
+</br>
+
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png"> 
+</p> 
+</br>
 
 
 **Working with Containers**   
