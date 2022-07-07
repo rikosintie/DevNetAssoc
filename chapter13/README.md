@@ -121,7 +121,27 @@ https://xebialabs.com/periodic-table-of-devops-tools/
 _For technologists, it’s easy to focus on the tools and technology, but honestly that’s the easy part of DevOps. Changing culture and implementing Lean methodologies are where many companies have struggled. Focus on streamlining your processes and implement technologies that help accelerate your efforts._   
 (Kindle Locations 9644-9646). 
 
+### DevOps Pipeline
 
+
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DevOps-Pipeline.png"> 
+</p> 
+
+Here is how the pipeline works:  
+* Step 1. The developer pulls the latest code from the version control system with Git. This ensures that the developer has the most recent changes and is not working with an old version.  
+* Step 2. The developer makes changes to the code, adding new features or fixing bugs. The developer also writes test cases that will be used to automatically test the new code to software functional requirements. The developer eventually stages the changes in Git for submission.  
+* Step 3. The developer uses Git to push the code and tests to the version control system (for example, GitHub), synchronizing the local version with the remote code repository stored in the version control system.  
+* Step 4. The continuous integration server, such as Jenkins, has a login that monitors GitHub for new code submissions. When Jenkins sees a new commit, it is able to pull the latest version and starts an automated build process using the test cases.  
+* Step 5. Jenkins kicks off the automated build of a testing environment for the new software build. It is possible to use Python scripts, Ansible, or other infrastructure automation tools to build the testing environment as close to production as possible. 
+* Step 6. Jenkins executes various automated testing, including unit testing, integration testing, smoke testing (stress testing), and security testing. When all the tests are finished, the results are sent back to Jenkins for compilation.  
+* Step 7. Jenkins sends the test results to the developer for review. They can be sent via email, but a more modern way of alerting the developer is through a collaboration tool such as Webex Teams. Jenkins has plug-ins for all major team management tools and allows for easy integration. If the build fails, the developer can use links to the information on what failed and why, make changes to the code, and restart the process.  
+* Step 8. If the build process is successful and all of the tests pass, Jenkins can deploy the new code to an artifact repository (just a fancy name for the place finished software is stored). The software is not able to be deployed in production.  
+* Step 9. Jenkins signals the infrastructure that an updated version of software is ready. For example, there may be a new container ready to be deployed into a Kubernetes platform. The updated container replaces the existing containers with the new code fully tested and ready to go. Now the application is updated with minimal (or no) disruption. 
+
+***The nuts and bolts of building a DevOps pipeline are beyond of the scope of the 200-901 DevNet Associate DEVASC exam.***
+
+(Kindle Locations 9630-9643). 
 ## Docker  
 
 Namespaces  
