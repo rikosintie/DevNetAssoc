@@ -51,7 +51,7 @@ The benefits of containers are as follows:
 (Kindle Locations 9426-9430). 
 
 
-DevOps
+## DevOps
 * Culture: For DevOps to work, organizational culture must change. This is by far one of the most difficult aspects to embrace, but it is the single most important factor for success. DevOps requires a culture of sharing. 
 * Automation: While DevOps is more than just a set of software tools, automation is the most easily identifiable benefit. Automation techniques greatly speed up the deployment process, enable defects to be caught and corrected earlier, and eliminate the need for human intervention in repetitive tasks. * Lean: Reducing wasted efforts and streamlining the process are the goals of Lean. It’s a management philosophy of continuous improvement and learning. 
 * Measurement: Unless you measure your results, you can never improve. Success with DevOps requires the measurement of performance, process, and people metrics as often as is feasible. 
@@ -61,6 +61,7 @@ DevOps
 The whole point is to reduce wasted time on rework. 
 Kindle Location 9556). 
 
+**The First way**    
 The following are the key characteristics of the first way: 
 * Make work visible 
 * Reduce batch sizes 
@@ -69,42 +70,44 @@ The following are the key characteristics of the first way:
 * Constantly optimize for business goals 
 (Kindle Locations 9558-9561). 
 
-Second Way
+**Second Way: Feedback Loop**    
 One of the things you will see repeatedly in DevOps is analogies to manufacturing. Since so much of this management philosophy is derived from Lean and the Toyota Production System, concepts like defect prevention are front and center in the approach. 
 (Kindle Locations 9562-9564). 
 
 If something isn’t working, you have to make sure that it doesn’t happen again so you don’t end up on a hamster wheel of pain. 
 (Kindle Locations 9565-9566). 
 
-Third Way
+**Third Way: Continuous Experimentation and Larning**  
+How do you foster innovation? Create a culture of trust where your people are allowed to try new things and fail. That doesn’t mean that you are just rolling the dice on crackpot ideas; rather, it means having a dynamic and disciplined approach to experimentation and risk taking. It’s very rare that success happens on the first try.  
+(Kindle Locations 9580-9582). 
+
 The following are the key characteristics of the third way: 
-* Conduct dynamic, disciplined experimentation and risk taking 
-* Define time to fix issues and make the system better 
-* When things go wrong, don’t point fingers 
-* Create shared code repositories 
+* Conduct dynamic, disciplined experimentation and risk taking  
+* Define time to fix issues and make the system better  
+* When things go wrong, don’t point fingers  
+* Create shared code repositories  
 (Kindle Locations 9591-9593). 
 
 
-DevOps Implementation 
-Implementing DevOps technical practices within an organization typically involves three stages. These stages follow a natural progression that leads to a fully automated code-to-deployment operational model: 
+### DevOps Implementation 
+Implementing DevOps technical practices within an organization typically involves three stages. These stages follow a natural progression that leads to a fully automated code-to-deployment operational model:  
 
-*Continuous integration: This stage involves merging development work with the code base constantly so that automated testing can catch problems early. 
+* Continuous integration: This stage involves merging development work with the code base constantly so that automated testing can catch problems early. 
 * Continuous delivery: This stage involves a software package delivery mechanism for releasing code to staging for review and inspection. 
-* Continuous deployment: This stage relies on continuous integration and continuous delivery to automatically release code into production as soon as it is ready.
+* Continuous deployment: This stage relies on continuous integration and continuous delivery to automatically release code into production as soon as it is ready.  
 (Kindle Locations 9594-9601). 
 
-https://xebialabs.com/periodic-table-of-devops-tools/ 
+https://xebialabs.com/periodic-table-of-devops-tools/  
 (Kindle Location 9606). 
 
-For technologists, it’s easy to focus on the tools and technology, but honestly that’s the easy part of DevOps. Changing culture and implementing Lean methodologies are where many companies have struggled. Focus on streamlining your processes and implement technologies that help accelerate your efforts. 
+_For technologists, it’s easy to focus on the tools and technology, but honestly that’s the easy part of DevOps. Changing culture and implementing Lean methodologies are where many companies have struggled. Focus on streamlining your processes and implement technologies that help accelerate your efforts._   
+(Kindle Locations 9644-9646). 
 
-Chris Jackson; Jason Gooley; Adrian Iliesiu; Ashutosh Malegaonkar. Cisco Certified DevNet Associate DEVASC 200-901 Official Cert Guide (Ken Beck's Library) (Kindle Locations 9644-9646). 
 
+## Docker  
 
-## Docker
-
-Namespaces
-Namespaces are essential for providing isolation for containers. Six namespaces are used for this purpose: 
+Namespaces  
+Namespaces are essential for providing isolation for containers. Six namespaces are used for this purpose:  
 * mnt (mountpoints): This namespace is used for mapping access to host operating system storage resources to the container process. 
 * pid (processes): This namespace is used to create a new process ID for an application. 
 * net (networks): This namespace is responsible for network access and mapping communication ports. 
@@ -113,15 +116,14 @@ Namespaces are essential for providing isolation for containers. Six namespaces 
 * user (UIDs): This namespace is used to map unique user rights to processes. 
 (Kindle Locations 9662-9669). 
 
-**Cgroups**   
+**Cgroups**  
 Cgroups, or control groups, are used to manage the resource consumption of each container process. You can set how much CPU and RAM are allocated as well as network and storage I/O. 
-(Kindle Locations 9673-9675). 
+(Kindle Locations 9673-9675).  
 
 
-
-**Union File System**   
+**Union File System**  
 The Union File System is a foundational building block for a container. It is a file system service that was developed for Linux to allow different file systems to be layered on top of each other to create a combination, or union, of the various files to create a single merged representation of the contents. 
-Kindle Locations 9680-9682). 
+Kindle Locations 9680-9682).  
 
 
 **Working with Containers**   
@@ -166,7 +168,7 @@ Are you sure you want to continue? [y/N] y
 
 docker container ls -a                                                                                
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
-┌─[mhubbard@HP8600-4] - [~/GoogleDrive/01_Vector/25_City-of-Riverside/networkRefresh] - [3580]
+┌─[mhubbard@HP8600-4] -
 ```
 
 ### Docker Files
@@ -195,11 +197,13 @@ RUN apt-get install nginx -y
 EXPOSE 80 443
 VOLUME [ "/usr/share/nginx/html" ]
 CMD [ "nginx", "-g", "daemon off;" ]
+```
+Build the container  
+`docker container build -t myimage:latest .`  
 
-docker container build -t myimage:latest .
-
-docker container run -p 80:80 -d myimage
-```  
+Run the container  
+`docker container run -p 80:80 -d myimage`  
+ 
 
 * docker image history myimage
 * docker build -t myimage:latest .
