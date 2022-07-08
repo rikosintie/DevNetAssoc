@@ -143,7 +143,15 @@ Here is how the pipeline works:
 ***The nuts and bolts of building a DevOps pipeline are beyond of the scope of the 200-901 DevNet Associate DEVASC exam.***
 
 (Kindle Locations 9630-9643). 
-## Docker  
+## Docker 
+[15 Docker commands you should know](https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421)  
+ 
+To work with Docker commands, you first need to know whether you’re dealing with an image or a container.
+* A Docker image either exists or it doesn’t.
+* A Docker container either exists or it doesn’t.
+* A Docker container that exists is either running or it isn’t.
+
+Once you know what you’re working with you can find the right command for the job.
 
 Namespaces  
 Namespaces are essential for providing isolation for containers. Six namespaces are used for this purpose:  
@@ -179,7 +187,7 @@ The Docker client is a command-line utility (run with the docker command) that t
 </br>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png.png"> 
 </p> 
 </br>
 
@@ -229,7 +237,24 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ┌─[mhubbard@HP8600-4] -
 ```
 
-### Docker Files
+### Docker Files  
+[How to build Docker Files](https://www.youtube.com/watch?v=WmcdMiyqfZs)  
+[ADD vs COPY](https://www.geeksforgeeks.org/difference-between-the-copy-and-add-commands-in-a-dockerfile/)  
+[what is the difference between the COPY and ADD command](https://stackoverflow.com/questions/24958140/what-is-the-difference-between-the-copy-and-add-commands-in-a-dockerfile)  
+[Dockerfiles](https://towardsdatascience.com/learn-enough-docker-to-be-useful-b0b44222eef5)  
+[Docker Basics: How to Use Dockerfiles](https://thenewstack.io/docker-basics-how-to-use-dockerfiles/)  
+
+
+When to use ADD or COPY: According to the Dockerfile best practices guide, we should always prefer COPY over ADD unless we specifically need one of the two additional features of ADD.
+
+Dockerfile = Comments + Commands + Arguments  
+Dockerfile is used with `docker build` to create a docker image.  
+
+Example  
+RUN mkdir -p /home/app  
+COPY ./app /home/app  (copy files from <Dokerfile directory>/app on the host to the container)
+CMD ["node", "server.js"]  
+ADD /[source]/[destination] EX ADD /root_folder/testfolder
 
 * FROM: Selects the base image used to start the build process or can be set to scratch to build a totally new image. 
 * MAINTAINER: Lets you select a name and email address for the image creator. 
@@ -256,6 +281,16 @@ EXPOSE 80 443
 VOLUME [ "/usr/share/nginx/html" ]
 CMD [ "nginx", "-g", "daemon off;" ]
 ```
+
+Working with Images  
+* build: Builds an image from a Dockerfile. 
+* push: Pushes a local image to a remote registry for storage and sharing. 
+* ls: List images stored locally. 
+* history: Shows the creation and build process for an image. 
+* inspect: Provides detailed information on all aspects of an image, including layer detail. 
+* rm: Deletes an image from local storage. 
+(Kindle Locations 9951-9955). 
+
 Build the container  
 `docker container build -t myimage:latest .`  
 
