@@ -145,6 +145,8 @@ Here is how the pipeline works:
 (Kindle Locations 9630-9643). 
 ## Docker 
 [15 Docker commands you should know](https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421)  
+[zsh-docker-aliases](https://github.com/akarzim/zsh-docker-aliases)  
+If you use zsh as your shell, these aliases will save you a lot of time.
  
 To work with Docker commands, you first need to know whether you’re dealing with an image or a container.
 * A Docker image either exists or it doesn’t.
