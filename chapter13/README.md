@@ -187,7 +187,7 @@ The Docker client is a command-line utility (run with the docker command) that t
 </br>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png"> 
 </p> 
 </br>
 
