@@ -172,7 +172,7 @@ Cgroups, or control groups, are used to manage the resource consumption of each 
 (Kindle Locations 9673-9675).  
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/cch13-CGroups.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-CGroups.png"> 
 </p> 
 
 **Union File System**  
