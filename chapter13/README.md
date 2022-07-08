@@ -172,7 +172,7 @@ Cgroups, or control groups, are used to manage the resource consumption of each 
 (Kindle Locations 9673-9675).  
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-CGroups.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/cch13-CGroups.png"> 
 </p> 
 
 **Union File System**  
@@ -187,7 +187,7 @@ The Docker client is a command-line utility (run with the docker command) that t
 </br>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png.png"> 
 </p> 
 </br>
 
@@ -291,8 +291,11 @@ Working with Images
 * rm: Deletes an image from local storage. 
 (Kindle Locations 9951-9955). 
 
-Build the container  
-`docker container build -t myimage:latest .`  
+Build the image
+`docker image build -t myimage:latest .`
+
+-t - tag the image myimage:latest  
+. - Docker file is located in the same directory
 
 Run the container  
 `docker container run -p 80:80 -d myimage`  
