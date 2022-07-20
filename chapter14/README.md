@@ -190,3 +190,8 @@ Paragraph - Intrusion Detection Systems - Location 10522
 Paragraph - Domain Name System - Location 10538  
 List - Reverse Proxy - Location 10594  
 
+### Define Key Terms
+**Dlint** - A static analysis tool for Python.  
+**Open Web Application Security Project (OWASP)** - An online community that produces freely available articles, methodologies, documentation, tools, and technologies in the field of web application security.  
+**Software Development Lifecycle (SDLC)** - A process used in the software industry to design, develop, and test high-quality software. Software Image Management  
+**Transport Layer Security (TLS)** - A widely adopted security protocol designed to facilitate privacy and data security for communications over the Internet.  
