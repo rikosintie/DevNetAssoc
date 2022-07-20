@@ -112,7 +112,9 @@ It is a common practice for corporations to use some type of software developmen
 
 (Kindle Locations 10443-10448).  
 
-### Secure Development Methods  
+<p align="left" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter14/images/ch14-SecureDevelopment.png"> 
+</p>  
 
 
 
@@ -168,6 +170,15 @@ A reverse proxy accepts a request from a user, forwards it to a server that can 
 * **Authentication:** The reverse proxy authenticates users via a variety of mechanisms and controls access to URLs hosted on the web server. 
 (Kindle Locations 10620-10621). 
 
+<p align="left" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter14/images/ch14-Reverse-Proxy.png"> 
+</p>  
+
+Figure 14-15 illustrates the concept of a reverse proxy with a user requesting a web page from https://server.com . In this case, server.com is the reverse proxy, which first terminates SSL and then translates the request and issues a new request to the images.server.com server. The images server then responds to the request, gathering and translating the response and sending it back to the client. The translation could mean applying compression (gzip) to the response. 
+
+<p align="left" width="100%">
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter14/images/ch14-Reverse-Proxy-Flow.png"> 
+</p> 
 
 ## Rewiew All Key Topics  
 List - Assets, Threats, vulnerabilities, and risks - Location 10186  
