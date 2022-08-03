@@ -1,7 +1,17 @@
 # Chapter 13 Deploying Applications
 
 ### Table of Contents
-[Service Models](#ServiceModels)
+[NIST](#NIST)  
+[Service Models](#ServiceModels)  
+[Cloud deployment models](#Cloud-deployment-models)  
+[Edge or Fog Computing](#Edge-or-Fog-Computing)  
+[Application Deployment Methods](#Application-Deployment-Methods)  
+[DevOps](#DevOps)  
+[Docker](#Docker)
+
+
+
+<a name="NIST"/>  
 
 ## NIST (SP) 800-145 What is the cloud
 
@@ -18,14 +28,16 @@ Kindle Locations 9294-9300).
 
 <a name="ServiceModels"/>  
 
-## Service Models  </br>
-* Software as a service (SaaS): A service provider hosts, manages, and controls an application and offers it to the customer to use. The customer does not interact at all with the underlying infrastructure, operating systems, storage, or network. There may be some customization capabilities, but they are usually limited to application-specific configuration. What you see is what you get.  
-* Platform as a service (PaaS): A PaaS provider supplies a fully integrated service/software suite, and customers can deploy their applications on top of this suite with a predefined set of application programing interfaces, libraries, software development kits, and/or other tools and services. Customers can program the application in any way they choose and can customize it directly to their own workflow, as long as the customization is within the parameters of the service provider’s offering. Customers do not have to worry about integration of the underlying infrastructure components, and in the case of a managed PaaS service, have no management responsibilities for the underlying infrastructure.  
-* Infrastructure as a service (IaaS): A provider enables the customer to provision compute, storage, and networking to run any combination of software and operating systems. While customers have no control of the underlying infrastructure hardware platform, they have full control over the software and services they deploy within the cloud service. The customer is also responsible for the maintenance of the software they deploy, including patching and upgrading.  
+## Service Models
+* Software as a service (SaaS): A service provider hosts, manages, and controls an application and offers it to the customer to use. The customer does not interact at all with the underlying infrastructure, operating systems, storage, or network. There may be some customization capabilities, but they are usually limited to application-specific configuration. What you see is what you get. 
+* Platform as a service (PaaS): A PaaS provider supplies a fully integrated service/software suite, and customers can deploy their applications on top of this suite with a predefined set of application programing interfaces, libraries, software development kits, and/or other tools and services. Customers can program the application in any way they choose and can customize it directly to their own workflow, as long as the customization is within the parameters of the service provider’s offering. Customers do not have to worry about integration of the underlying infrastructure components, and in the case of a managed PaaS service, have no management responsibilities for the underlying infrastructure. 
+* Infrastructure as a service (IaaS): A provider enables the customer to provision compute, storage, and networking to run any combination of software and operating systems. While customers have no control of the underlying infrastructure hardware platform, they have full control over the software and services they deploy within the cloud service. The customer is also responsible for the maintenance of the software they deploy, including patching and upgrading. 
 
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-Cloud-Serice-Models.png"> 
 </p> 
+
+<a name="#Cloud-deployment-models"/>
 
 ### Cloud deployment models
 
@@ -33,6 +45,8 @@ Kindle Locations 9294-9300).
 * Public Clouod
 * Hybrid Cloud
 * Community Cloud
+
+<a name="#Edge-or-Fog-Computing"/>
 
 ## Edge or Fog Computing
 With the increase in IoT applications, devices, and sensors, the various deployment models covered so far are just not up to the task of handling the sheer volume of data being created and needing to be processed. 
@@ -44,6 +58,7 @@ This sea of data cannot be consumed and processed by a centralized cloud applica
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-Edge-Computing.png"> 
 </p> 
 
+<a name="#Application-Deployment-Methods"/>  
 
 ## Application Deployment Methods 
 What is IT’s value to the business if you boil it down to the simplest aspect? IT is charged with supporting and maintaining applications that the business relies on. No one builds a network first and then looks for applications to stick on it. 
@@ -74,6 +89,7 @@ The benefits of containers are as follows:
 * Ability to deploy applications in seconds 
 (Kindle Locations 9426-9430). 
 
+<a name="#DevOps"/>  
 
 ## DevOps
 * Culture: For DevOps to work, organizational culture must change. This is by far one of the most difficult aspects to embrace, but it is the single most important factor for success. DevOps requires a culture of sharing. 
@@ -146,8 +162,10 @@ Here is how the pipeline works:
 * Step 9. Jenkins signals the infrastructure that an updated version of software is ready. For example, there may be a new container ready to be deployed into a Kubernetes platform. The updated container replaces the existing containers with the new code fully tested and ready to go. Now the application is updated with minimal (or no) disruption. 
 
 ***The nuts and bolts of building a DevOps pipeline are beyond of the scope of the 200-901 DevNet Associate DEVASC exam.***
+(Kindle Locations 9630-9643).  
 
-(Kindle Locations 9630-9643). 
+<a name="#Docker"/>
+
 ## Docker 
 [15 Docker commands you should know](https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421)  
 [zsh-docker-aliases](https://github.com/akarzim/zsh-docker-aliases)  
@@ -179,7 +197,7 @@ Cgroups, or control groups, are used to manage the resource consumption of each 
 (Kindle Locations 9673-9675).  
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/cch13-CGroups.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-CGroups.png"> 
 </p> 
 
 **Union File System**  
@@ -194,7 +212,7 @@ The Docker client is a command-line utility (run with the docker command) that t
 </br>
 
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-DockerArchitecture.png"> 
 </p> 
 </br>
 
@@ -245,6 +263,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ```
 
 ### Docker Files  
+[Docker for Beginners](https://docker-curriculum.com) - This is a great tutorial on Docker.
 [How to build Docker Files](https://www.youtube.com/watch?v=WmcdMiyqfZs)  
 [ADD vs COPY](https://www.geeksforgeeks.org/difference-between-the-copy-and-add-commands-in-a-dockerfile/)  
 [what is the difference between the COPY and ADD command](https://stackoverflow.com/questions/24958140/what-is-the-difference-between-the-copy-and-add-commands-in-a-dockerfile)  
@@ -303,6 +322,11 @@ Build the image
 
 -t - tag the image myimage:latest  
 . - Docker file is located in the same directory
+
+**Login into Docker Hub and push the image**  
+`docker login` — Log in to a Docker registry. Enter your username and password when prompted.  
+
+`docker image push my_repo/my_image:my_tag`  
 
 Run the container  
 `docker container run -p 80:80 -d myimage`  
