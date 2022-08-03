@@ -1,5 +1,8 @@
 # Chapter 13 Deploying Applications
 
+### Table of Contents
+[Service Models](#ServiceModels)
+
 ## NIST (SP) 800-145 What is the cloud
 
 * Broad Network Access - Services are available over the network and accessed via standard protocols on any type of client (Mobile phone, tablet, desktop, etc.)
@@ -13,10 +16,12 @@ Kindle Locations 9294-9300).
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-Cloud-definition.png"> 
 </p> 
 
-## Service Models
-* Software as a service (SaaS): A service provider hosts, manages, and controls an application and offers it to the customer to use. The customer does not interact at all with the underlying infrastructure, operating systems, storage, or network. There may be some customization capabilities, but they are usually limited to application-specific configuration. What you see is what you get. 
-* Platform as a service (PaaS): A PaaS provider supplies a fully integrated service/software suite, and customers can deploy their applications on top of this suite with a predefined set of application programing interfaces, libraries, software development kits, and/or other tools and services. Customers can program the application in any way they choose and can customize it directly to their own workflow, as long as the customization is within the parameters of the service provider’s offering. Customers do not have to worry about integration of the underlying infrastructure components, and in the case of a managed PaaS service, have no management responsibilities for the underlying infrastructure. 
-* Infrastructure as a service (IaaS): A provider enables the customer to provision compute, storage, and networking to run any combination of software and operating systems. While customers have no control of the underlying infrastructure hardware platform, they have full control over the software and services they deploy within the cloud service. The customer is also responsible for the maintenance of the software they deploy, including patching and upgrading. 
+<a name="ServiceModels"/>  
+
+## Service Models  </br>
+* Software as a service (SaaS): A service provider hosts, manages, and controls an application and offers it to the customer to use. The customer does not interact at all with the underlying infrastructure, operating systems, storage, or network. There may be some customization capabilities, but they are usually limited to application-specific configuration. What you see is what you get.  
+* Platform as a service (PaaS): A PaaS provider supplies a fully integrated service/software suite, and customers can deploy their applications on top of this suite with a predefined set of application programing interfaces, libraries, software development kits, and/or other tools and services. Customers can program the application in any way they choose and can customize it directly to their own workflow, as long as the customization is within the parameters of the service provider’s offering. Customers do not have to worry about integration of the underlying infrastructure components, and in the case of a managed PaaS service, have no management responsibilities for the underlying infrastructure.  
+* Infrastructure as a service (IaaS): A provider enables the customer to provision compute, storage, and networking to run any combination of software and operating systems. While customers have no control of the underlying infrastructure hardware platform, they have full control over the software and services they deploy within the cloud service. The customer is also responsible for the maintenance of the software they deploy, including patching and upgrading.  
 
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter13/images/ch13-Cloud-Serice-Models.png"> 
