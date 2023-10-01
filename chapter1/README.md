@@ -20,7 +20,7 @@ Here are the websites that I found useful why studying.
 
 ### Sites related to exam details  
 
-[DEVASC Study Resources](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics?ccid=devnetprep&dtid=nurturestream&oid=cln&mkt_tok=NTY0LVdIVi0zMjMAAAGKMlzuQuocGxLSeTeYwRz5Z8EM4t-dh4BrQZDpfzlYInvRCh8keFOilEj139hH12N04lwM-KnoZzlGkeO05BiZM_M2ePxnqQ7Vb9d49QqqL9R70g) - A new page Cisco released which consolidates serveral resources on one page. 
+[DEVASC Study Resources](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics?ccid=devnetprep&dtid=nurturestream&oid=cln&mkt_tok=NTY0LVdIVi0zMjMAAAGKMlzuQuocGxLSeTeYwRz5Z8EM4t-dh4BrQZDpfzlYInvRCh8keFOilEj139hH12N04lwM-KnoZzlGkeO05BiZM_M2ePxnqQ7Vb9d49QqqL9R70g) - A new page Cisco released which consolidates several resources on one page. 
 
 [Cisco Certified DevNet Associate DEVASC 200-901
 Official Cert Guide Companion Website](https://www.ciscopress.com/promotions/book-registration-cisco-certified-devnet-associate-142234)  
@@ -29,7 +29,11 @@ Information from Cisco Press about the book, flashcards, study guides, etc.
 [DevNet Associate Exam v1.0 (200-901)](https://developer.cisco.com/certification/exam-topic-associate/)
 This is the place to go to find out what's on the exam. You can sign up for updates and I recommend you do. It's very disheartening to be taking the exam and thinking "Why is this on the exam".
 
-Amazingly, on this page they provide 10 free mini courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
+Amazingly, on this page, they provide 10 free mini-courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
+
+UPDATE: Cisco released an Ubuntu image for the DevNet Expert course. There is no reason not to use it for the associate course. It's available as an OVA for VMWare Workstation and a QCOW2 for Linux.  
+Download it here: [Cisco Certified DevNet Expert (v1.0) Equipment and Software List](https://learningnetwork.cisco.com/s/article/devnet-expert-equipment-and-software-list?t=1696124836669)
+
 
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
 This seems like the same as the first link but it is actually different. This breaks the topics down by weight and a verb.  
@@ -48,14 +52,14 @@ This link is a graphic from Cisco that shows the relative level of knowledge for
 You can download the exam topics in PDF format [here](https://www.cisco.com/content/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf).  
 
 [Introducing the DevNet Associate Fundamentals Course](https://developer.cisco.com/certification/fundamentals/)  
-The DevNet Associate Fundamentals training course is a next generation learning experience, developed to help candidates like you, study and prepare for the DevNet Associate Certification Exam available on February 24, 2020. The course offers high-quality DevNet Certification-focused content in an interactive all-in-one learning experience that includes built-in integrated labs. The DevNet Associate Fundamentals course gives you access to the materials you need to successfully hone your skills and better prepare for the exam.
+The DevNet Associate Fundamentals training course is a next-generation learning experience, developed to help candidates like you, study and prepare for the DevNet Associate Certification Exam available on February 24, 2020. The course offers high-quality DevNet Certification-focused content in an interactive all-in-one learning experience that includes built-in integrated labs. The DevNet Associate Fundamentals course gives you access to the materials you need to successfully hone your skills and better prepare for the exam.
 
 1 month is $99, 3 months is $225, 6 months is $399. Renewals are $49 per month.
 
 [DevNet Associate Essentials Webinar Series](https://mkto.cisco.com/devnet-associate-essentials.html?utm_campaign=devnetassociate-essentials20&utm_source=web&utm_medium=cln)  
-Registration required but you get access to 3 recorded webinars.  
+Registration is required but you get access to 3 recorded webinars.  
 
-* Episode 1: The CIsco Certified DevNet Associate Certification and Software Basics (90 minutes long)
+* Episode 1: The Cisco Certified DevNet Associate Certification and Software Basics (90 minutes long)
 * Episode 2: Getting Acquainted with Cisco Platforms and Application Development (60 minutes)
 * Episode 3: The Basics of Infrastructure, Automation, and the Network (60 minutes)  
 
