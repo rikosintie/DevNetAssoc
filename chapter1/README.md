@@ -7,9 +7,9 @@
 
 Chapter 1 lays out why you should pursue the DevNet Associate certification. I will just say that automation isn't going away and if you stay in the field it's obvious that you are going to have to learn Python, Postman, and other tools of the developer.  
 
-I earned my first Cisco CCNA in 2000. Back then there weren't many free or easily avaiable resources to help you out. But the times have changed! Cisco has built the DevNet program and offers hours of free videos, podcast, a GitHub repo, a reasonable priced ebook, print book combo that includes online flash cards and practice tests.
+I earned my first Cisco CCNA in 2000. Back then there weren't many free or easily available resources to help you out. But the times have changed! Cisco has built the DevNet program and offers hours of free videos, podcasts, a GitHub repo, a reasonably priced ebook, print book combo that includes online flashcards and practice tests.
 
-I can honestly say that it feels like Cisco sees the DevNEt program as key to their success in a changing landscape.
+It feels like Cisco sees the DevNet program as key to its success in a changing landscape.
 
 I recommend that you spend an hour and watch this video before you start - [DevNet Associate Essentials Series – Episode 1](https://www.cisco.com/c/m/en_us/training-events/events-webinars/devnet-associate-part1.html)  
 I listened at 1.25 speed and it was completely understandable. In the past, I just bought the book and crammed until I felt comfortable with every topic. But this video describes a much more efficient approach.  
@@ -27,7 +27,7 @@ Official Cert Guide Companion Website](https://www.ciscopress.com/promotions/boo
 Information from Cisco Press about the book, flashcards, study guides, etc.  
 
 [DevNet Associate Exam v1.0 (200-901)](https://developer.cisco.com/certification/exam-topic-associate/)
-This is the place to go to find out what's on the exam. You can sign up for updates and I recommend you do. It's very disheartening to be taking the exam and thinking "Why is this on the exam".
+This is where to find out what's on the exam. You can sign up for updates and I recommend you do. It's very disheartening to be taking the exam and thinking "Why is this on the exam".
 
 Amazingly, on this page, they provide 10 free mini-courses. The first three are "Setting up your (Linux/Mac/Windows) workstation. I use Linux and Mac and I can say for sure that the guides are great. If you are new to Git, Python, REST APIs, you need to start here.  
 
@@ -36,7 +36,7 @@ Download it here: [Cisco Certified DevNet Expert (v1.0) Equipment and Software L
 
 
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
-This seems like the same as the first link but it is actually different. This breaks the topics down by weight and a verb.  
+This seems like the same as the first link but it is different. This breaks the topics down by weight and a verb.  
 
 * Design --------------- Complete knowledge of the topic
 * Troubleshoot --------- How do the parts fit together
@@ -47,7 +47,7 @@ This link is a graphic from Cisco that shows the relative level of knowledge for
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/Cisco-Exam-Pyramid.png"> 
 </p>  
- [Cisco Exam Pyramid](https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/Cisco-Exam-Pyramid.png)  
+ 
 
 You can download the exam topics in PDF format [here](https://www.cisco.com/content/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf).  
 
@@ -64,7 +64,7 @@ Registration is required but you get access to 3 recorded webinars.
 * Episode 3: The Basics of Infrastructure, Automation, and the Network (60 minutes)  
 
 [DevNet Associate Prep Program](https://learningnetwork.cisco.com/s/learning-plan-detail-standard?ltui__urlRecordId=a1c3i0000007q9cAAA&ltui__urlRedirect=learning-plan-detail-standard&t=1596603514739)  
-This is an interesting site. It really points out what I talked about above. There are 5 vidoes titled "How to study for any Cisco Automation Exam:Lesson 1 to Lesson 5". The total for all 5 videos is about an hour so it's not overwhelming.  
+This is an interesting site. It points out what I talked about above. There are 5 videos titled "How to study for any Cisco Automation Exam: Lesson 1 to Lesson 5". The total for all 5 videos is about an hour so it's not overwhelming.  
 
 [DevNet Associate Prep
 On Demand](https://mkto.cisco.com/devnetprep?utm_campaign=devnetprep20&utm_source=web&utm_medium=cln)  
@@ -79,7 +79,7 @@ Get help on your DevNet Associate Certification self-study plan directly from Ci
 It does require registration, but Cisco already has your information so I don't see this as a big privacy issue.  
 
 [DevNet Certifications Community](https://learningnetwork.cisco.com/s/topic/0TO3i0000008jY5GAI/devnet-certifications-community)  
-A dedicated community where you can ask questions, try some practice question and just see what questions others have.  
+A dedicated community where you can ask questions, try some practice questions, and just see what questions others have.  
 
 [Cisco Sandbox Labs](https://devnetsandbox.cisco.com)  
 Free sandboxes where you can practice.
