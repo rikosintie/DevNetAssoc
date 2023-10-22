@@ -1,35 +1,23 @@
 # VS Code Tips
 **Useful websites**  
 
-[VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)  
-This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
-   
-[Using Python environments in VS Code ](https://code.visualstudio.com/docs/python/environments)  
-I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell. I had been creating virtual python environments int the terminal but the DevNet guide recommended doing it in VSCode.   
+* [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)  
+This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.  
+* [VS Code Tutorial – Become More Productive](https://www.youtube.com/watch?v=heXQnM99oAI) - This tutorial is awesome. It's almost 6 hours long so you will have to do it in sections but it is worth doing.
+* [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment) -
+I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell.  I had been creating virtual python environments in the terminal but the DevNet guide recommended doing it in VSCode. This article walks you through how to do it.  
 
-This article walks you through how to do it. The only thing I will add is that on the section ## Create a virtual environment it says:  
-
-```
-# macOS/Linux
-# You may need to run sudo apt-get install python3-venv first
-python3 -m venv .venv
-``` 
-
-*DO THIS IN THE TERMINAL IN VSCode, not in your regular terminal.*
-
-[See unsaved changes in vscode](https://stackoverflow.com/questions/65874120/see-unsaved-changes-in-vscode)  
+* [See unsaved changes in vscode](https://stackoverflow.com/questions/65874120/see-unsaved-changes-in-vscode)  
 Some good tips on editing unsaved files and using shortcuts in VSCode.  
 
-[Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)  
+* [Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)  
 Microsoft's marketplace for VSCode extensions. There are a lot of useful extensions for VScode here. Most are free.  
 
 [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)  
 The official documentation on the VSCode User Interface. It's worth some time reviewing this page.  
 
 [Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)  
-I have had this happen a couple times with VScode on Mac and Linux. 
-
-
+I have had this happen a couple times with VScode on Mac and Linux.  
 
 ## Setting up the VSCode environment
 
@@ -67,4 +55,3 @@ To view the differences between the file on disk and the file in VScode, right c
 </p>  
 
 A second editor window will open up and the unsaved file will be on the right.
-
