@@ -21,18 +21,17 @@ I have had this happen a couple times with VScode on Mac and Linux.
 
 ## Setting up the VSCode environment
 
-VS Code has a rich set of editing tools. One feature I found really useful for the DevNet course is that you can open a folder and see all of the files in the VSCode explorer. 
+VS Code has a rich set of editing tools. One feature I found really useful for the DevNet course is that you can open a folder and see all of the files in the VSCode explorer.  
 
-For this course, I created a new folder called _DevNet and then opened the folder in VSCode. For later chapters, I created folders called Meraki and DNA using `python -m venv meraki` and `python -m venv DNA`. 
+For this course, I created a new folder called _DevNet and then opened the folder in VSCode. For later chapters, I created folders called Meraki and DNA using `python -m venv meraki` and `python -m venv DNA`.  
 
 Then I could create the python scripts and any other documents in the repsective folders.
 
-
 ## Comparing a saved file to the one in the editor
 
-On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.   
+On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.  
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-View-Menu.png"> 
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-View-Menu.png">  
 </p>  
 
 That will open a pane on the left. On the file menu, select "Open Folder" and select a folder on your file system. Here is what my _DevNet folder looks like:  
