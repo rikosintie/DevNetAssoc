@@ -3,11 +3,13 @@
 Chapter 3 is a great introduction to python. You will need to use additional resources to master this chapter but it gets you started.
 
 ## Useful Websites  
+
 [Learning Python 3](https://mwhubbard.blogspot.com/2018/07/learning-python-3.html)  
 This is my blog on Python resources. I update it on regular basis so bookmark it and check back weekly.  
 
 [A curated list of Ultimate Python resources!](https://twitter.com/ayushi7rawat/status/1315651868891049984)  
-This is a twiter thread. It contains a curated list of 
+This is a twiter thread. It contains a curated list of:  
+
 * books
 * IDEs
 * playgrounds

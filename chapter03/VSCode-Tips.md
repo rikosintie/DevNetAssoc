@@ -1,5 +1,6 @@
-# VS Code Tips
-**Useful websites**  
+# VS Code Tips #
+
+## Useful websites ##  
 
 * [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)  
 This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.  
@@ -13,13 +14,13 @@ Some good tips on editing unsaved files and using shortcuts in VSCode.
 * [Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)  
 Microsoft's marketplace for VSCode extensions. There are a lot of useful extensions for VScode here. Most are free.  
 
-[User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)  
+* [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)  
 The official documentation on the VSCode User Interface. It's worth some time reviewing this page.  
 
-[Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)  
+* [Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)  
 I have had this happen a couple times with VScode on Mac and Linux.  
 
-## Setting up the VSCode environment
+## Setting up the VSCode environment ##
 
 VS Code has a rich set of editing tools. One feature I found really useful for the DevNet course is that you can open a folder and see all of the files in the VSCode explorer.  
 
@@ -27,7 +28,7 @@ For this course, I created a new folder called _DevNet and then opened the folde
 
 Then I could create the python scripts and any other documents in the repsective folders.
 
-## Comparing a saved file to the one in the editor
+## Comparing a saved file to the one in the editor ##
 
 On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.  
 <p align="center" width="100%">
@@ -37,7 +38,7 @@ On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you
 That will open a pane on the left. On the file menu, select "Open Folder" and select a folder on your file system. Here is what my _DevNet folder looks like:  
 <p align="center" width="100%">
     <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-DevNet-Folder.png"> 
-</p> 
+</p>  
 
 Notice at the very top is the "Open Editors" pane. If yours is not on, you can right click over a folder and select "Open Editors".
 
