@@ -32,12 +32,12 @@ Then I could create the python scripts and any other documents in the repsective
 
 On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.  
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-View-Menu.png">  
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-View-Menu.png">  
 </p>  
 
 That will open a pane on the left. On the file menu, select "Open Folder" and select a folder on your file system. Here is what my _DevNet folder looks like:  
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-DevNet-Folder.png"> 
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-DevNet-Folder.png"> 
 </p>  
 
 Notice at the very top is the "Open Editors" pane. If yours is not on, you can right click over a folder and select "Open Editors".
@@ -45,13 +45,13 @@ Notice at the very top is the "Open Editors" pane. If yours is not on, you can r
 Notice in the "Open Editors" pane that the file test.py has a white dot next to it. That means there are unsaved changes.  
 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/Unsaved-changes.png"> 
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/Unsaved-changes.png"> 
 </p>  
 
 To view the differences between the file on disk and the file in VScode, right click over test.py and select "Compare with Saved [⌘K D]".  
 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter3/images/VS-Compare.png"> 
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-Compare.png"> 
 </p>  
 
 A second editor window will open up and the unsaved file will be on the right.
