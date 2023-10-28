@@ -96,3 +96,16 @@ The extensions that I use:
   * Debug an application running somewhere else such as a customer site or in the cloud.
 * [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit) - The Remote - SSH extension lets you use any remote machine with a SSH server as your development environment. This extension complements the Remote - SSH extension with syntax colorization, keyword intellisense, and simple snippets when editing SSH configuration files.
 * [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) - Ruff can be used to replace Flake8 (plus dozens of plugins), Black, isort, pyupgrade, and more, all while executing tens or hundreds of times faster than any individual tool.
+* [TextFSM Template Syntax](https://marketplace.visualstudio.com/items?itemName=andytruett.TextFSM-Syntax) - Visual Studio Code syntax highlighting for textFSM templates
+
+    Syntax Coloring for:
+
+  * Comments
+  * Value Definitions (w/ options, regex)
+  * Reserved States
+  * States
+  * State Rules
+  * Rule Actions
+  * New State Transitions
+  * Error Actions
+  * EOF marker
