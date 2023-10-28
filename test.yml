@@ -1,0 +1,12 @@
+---
+- process: "update static routes"
+  vrf: "customer1"
+  nexthop: "10.0.0.1"
+  devices:
+    - net: "192.168.0.0"
+      mask: "255.255.0.0"
+      state: "present"
+    - net: "172.16.0.0"
+      mask: "255.240.0.0"
+      state: "absent"
+...
