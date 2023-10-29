@@ -18,12 +18,12 @@
 
 **Nornir JSON/textFSM Converter
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/VS_Code/images/textfsm-nornir-tech-textfsm.png">  
+    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech-textfsm.png">  
 </p>  
 
 **Nornir JSON/YAML/XML Converter**
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/VS_Code/images/textfsm-nornir-tech.png">  
+    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech.png">  
 </p>  
 
 
