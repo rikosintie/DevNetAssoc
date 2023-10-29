@@ -14,7 +14,11 @@
 * [Using Pyton to loop through JSON-ENCODED DATA](https://www.tech-otaku.com/mac/using-python-to-loop-through-json-encoded-data/)
 * [{JSON} Placeholder](https://jsonplaceholder.typicode.com) - A free fake API for testing and prototyping JSON objects.
 * [JSONPlacehoder Guide](https://jsonplaceholder.typicode.com/guide/) - How to use the JSONPlaceholder server
-* 
+* [JSON/YAML/XML Converter Site](https://textfsm.nornir.tech) - This site is awesome. You can take the output of a show command, for example "show interface status", and convert it to JSON, then paste the JSON into the next tab and get YAML and XML output!
+
+<p align="center" width="100%">
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/VS_Code/images/textfsm-nornir-tech.png">  
+</p>  
 
 
 
