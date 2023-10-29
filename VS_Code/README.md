@@ -1,6 +1,6 @@
 # VS Code Tips <!-- omit from toc -->  
 
-Table of Contents
+Table of Conten
 
 - [Introduction](#introduction)
 - [Useful websites](#useful-websites)
