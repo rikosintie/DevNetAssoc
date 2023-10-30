@@ -1,11 +1,18 @@
-# Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
+# Chapter 8 Cisco Enterprise Networking Management Platforms and APIs <!-- omit from toc -->  
+
+- [Introduction](#introduction)
+- [Useful websites](#useful-websites)
+- [The first Python script to access the API](#the-first-python-script-to-access-the-api)
+- [Basic Authentication for DNA Center](#basic-authentication-for-dna-center)
+
+## Introduction  
 
 Chapter 8 introduces the Cisco Meraki Cloud Platform, Cisco DNA Center and Cisco SDWAN (Viptela). You learn to use the API and SDKs for each platform.
-
 
 After an introduction the Meraki philosophy you log into the dashboard and create your API key. All access to the API requires the API key.
 
 ## Useful websites  
+
 [VSCode Virtual Environments](https://code.visualstudio.com/docs/python/environments)  
 It's a best practice to use virtual environments for Python development. This article explains how to set them up in VSCode. I made the mistake of creating the venv in the terminal, not in the VSCode terminal. I had to delete it and start over. But once you realize what to do it's identical, just create it in the VSCode terminal.  
 
@@ -38,7 +45,6 @@ Username: devnetuser
 password: Cisco123!  
 base64 encoding: ZGV2-bmV0dXNlcjpDaXNjbzEyMyE=  
 
-
 Note: Only chromium based browsers and Firefox are supported. The certificate is bad, when you get the warning type `thisisunsafe` without clicking on any of the buttons.  
 
 [Introduction to Postman](https://learning.postman.com/docs/getting-started/introduction/)  
@@ -56,10 +62,12 @@ PARAMS = {}
 #  adds a key of organization_id with a value of 549236
 PARAMS["organization_id"] = "549236"  # Demo Organization "DevNet Sandbox"
 ```
+
 Here is what PARAMS looks like printed  
 `PARAMS =  {'organization_id': '549236'}`
 
-### The first Python script to access the API
+## The first Python script to access the API
+
 The book has the entire script so you can just copy it. I was bit confused about this print statement:  
 `print("Network ID: {0:20s}, Name: {1:45s}, Tags: {2:<10s} ".format(NET['id'], NET['name'], str(NET['tags'])))`
 
@@ -87,7 +95,6 @@ Note that the "," gets printed but not counted. You can change it to any charact
 Network ID: L_646829496481105433; Name: DevNet Sandbox ALWAYS ON                     , Tags: None
 ```
 
-
 **The print statement rewritten to use f strings**  
 Notice that I used a single quote after the f and double quotes for the variables. If you use single for both you wil get an error that the statement has an open {. It took me quite a while to figure that out!
 
@@ -96,7 +103,8 @@ Notice that I used a single quote after the f and double quotes for the variable
 Tags:, {str(NET.get("tags")) :<4}')
 ```
 
-### Basic Authentication for DNA Center
+## Basic Authentication for DNA Center
+
 In Postman, you can select Authorization when creating a new request. If you select basic you are prompted to enter a username and password. To see the base64 encoded version of this combination simple click on headers and the first header listed will be "Authorization"
 
 <p align="center" width="100%">
