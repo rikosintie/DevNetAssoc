@@ -1,4 +1,4 @@
-## Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
+# Chapter 8 Cisco Enterprise Networking Management Platforms and APIs
 
 Chapter 8 introduces the Cisco Meraki Cloud Platform, Cisco DNA Center and Cisco SDWAN (Viptela). You learn to use the API and SDKs for each platform.
 
@@ -29,6 +29,9 @@ Everything you need to know about DNA center APIs. After readning up to location
 [dnacentersdk Quick Start](https://dnacentersdk.readthedocs.io/en/latest/api/quickstart.html)  
 Tips on common mistakes and environment variables.
 
+[dnac-sidekick](https://github.com/dannywade/dnac-sidekick) - DNAC Sidekick is a CLI app used to interact with Cisco DNA Center (DNAC). It's built using the [Click](https://github.com/pallets/click) and [Rich](https://github.com/Textualize/rich) libraries. The Rich library is what helps make the output look cleaner to the end-user.
+
+The goal of the tool is to provide a clean and user-friendly CLI interface to quickly pull information from DNA Center. All interactions with DNAC uses DNA Center's REST API, so please make sure that the REST API is enabled and the user account(s) used with this tool have proper API permissions.
 
 [DNA Sandbox](https://sandboxdnac2.cisco.com)  
 Username: devnetuser  
