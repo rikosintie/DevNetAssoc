@@ -12,7 +12,7 @@ Table of Contents
 
 I had been using Sublime Text for a long time and was reluctant to switch to VS Code but I finally decided to try it and I am fully onboard now! I still use Sublime Text for text files but even there, VS Code is winning out slowly but surely.  
 
-What did it for me was the VS Code Tutorial that I have listed in the "Useful Websites" section below.  
+What did it for me was the VS Code Tutorial that I have listed in the "Useful Websites" section below. VS Code has become my favorite tool.
 
 ## Useful websites  
 
