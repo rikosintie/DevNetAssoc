@@ -17,7 +17,7 @@ By default, the Python extension looks for and uses the first Python interpreter
 You should see the name of the venv and the word workspace on the right. Select that interepter.
 
 <p align="left" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter8/images/Python-Interpreter.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter08/images/Python-Interpreter.png"> 
 </p> 
 
 [Introduction to Meraki Dashboard API](https://developer.cisco.com/meraki/api-v1/#!introduction/meraki-dashboard-api)  
