@@ -13,4 +13,4 @@ Tools I used for the DevNet associate certification
 * [Chapter 9](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter9) - Cisco Data Center and Compute Management Platforms and APIs (Not Complete)
 * [My JSON Notes](https://github.com/rikosintie/DevNetAssoc/tree/main/json-notes) - My notes for learning JSON
 * [VS Code Tips](https://github.com/rikosintie/DevNetAssoc/tree/main/VS_Code) - The VS Code tutorials that I used.
-* [Jinja2 Tutorials](https://github.com/rikosintie/DevNetAssoc/tree/main/README.md) - Jinja2 is a templating language for python code.
+* [Jinja2 Tutorials](https://github.com/rikosintie/DevNetAssoc/tree/main/Jinja2) - Jinja2 is a templating language for python code.
