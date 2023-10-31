@@ -3,6 +3,7 @@
 ## Youtube Tutorials
 
 - [Python and Jinja2 Cisco Network Automation](https://www.youtube.com/watch?v=nxuE3pm4Rtc) - Hank Preston from the Cisco DevNet network is on David Bombal's podcast. 54 minutes of goodness!
+  - [The script from the video tutorial](https://github.com/hpreston/python_networking/tree/master/csv_config_gen)
 
 ## Web Documentation and Tutorials
 
