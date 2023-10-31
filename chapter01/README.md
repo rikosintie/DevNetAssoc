@@ -2,7 +2,7 @@
 
 
 <p align="left" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/DevNet-Exam-Topics.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter01/images/DevNet-Exam-Topics.png"> 
 </p>  
 
 Chapter 1 lays out why you should pursue the DevNet Associate certification. I will just say that automation isn't going away and if you stay in the field it's obvious that you are going to have to learn Python, Postman, and other tools of the developer.  
@@ -20,7 +20,7 @@ Here are the websites that I found useful why studying.
 
 ### Sites related to exam details  
 
-[DEVASC Study Resources](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics?ccid=devnetprep&dtid=nurturestream&oid=cln&mkt_tok=NTY0LVdIVi0zMjMAAAGKMlzuQuocGxLSeTeYwRz5Z8EM4t-dh4BrQZDpfzlYInvRCh8keFOilEj139hH12N04lwM-KnoZzlGkeO05BiZM_M2ePxnqQ7Vb9d49QqqL9R70g) - A new page Cisco released which consolidates several resources on one page. 
+[DEVASC Study Resources](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics?ccid=devnetprep&dtid=nurturestream&oid=cln&mkt_tok=NTY0LVdIVi0zMjMAAAGKMlzuQuocGxLSeTeYwRz5Z8EM4t-dh4BrQZDpfzlYInvRCh8keFOilEj139hH12N04lwM-KnoZzlGkeO05BiZM_M2ePxnqQ7Vb9d49QqqL9R70g) - A new page Cisco released which consolidates several resources on one page.  
 
 [Cisco Certified DevNet Associate DEVASC 200-901
 Official Cert Guide Companion Website](https://www.ciscopress.com/promotions/book-registration-cisco-certified-devnet-associate-142234)  
@@ -34,7 +34,6 @@ Amazingly, on this page, they provide 10 free mini-courses. The first three are 
 UPDATE: Cisco released an Ubuntu image for the DevNet Expert course. There is no reason not to use it for the associate course. It's available as an OVA for VMWare Workstation and a QCOW2 for Linux.  
 Download it here: [Cisco Certified DevNet Expert (v1.0) Equipment and Software List](https://learningnetwork.cisco.com/s/article/devnet-expert-equipment-and-software-list?t=1696124836669)
 
-
 [200-901 DEVASC Exam: DevNet Associate](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)  
 This seems like the same as the first link but it is different. This breaks the topics down by weight and a verb.  
 
@@ -45,9 +44,8 @@ This seems like the same as the first link but it is different. This breaks the 
 
 This link is a graphic from Cisco that shows the relative level of knowledge for each of those words. You should plan your study time around the pyramid.  
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter1/images/Cisco-Exam-Pyramid.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter01/images/Cisco-Exam-Pyramid.png">  
 </p>  
- 
 
 You can download the exam topics in PDF format [here](https://www.cisco.com/content/dam/en_us/training-events/le31/le46/cln/marketing/exam-topics/200-901-DEVASC.pdf).  
 
