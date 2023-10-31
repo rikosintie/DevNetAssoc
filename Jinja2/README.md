@@ -2,7 +2,9 @@
 
 ## Youtube Tutorials
 
-## Web Tutorials
+- [Python and Jinja2 Cisco Network Automation](https://www.youtube.com/watch?v=nxuE3pm4Rtc) - Hank Preston from the Cisco DevNet network is on David Bombal's podcast. 54 minutes of goodness!
+
+## Web Documentation and Tutorials
 
 - [Template Designer Documentation](https://jinja.palletsprojects.com/en/3.1.x/templates/#synopsis) - A Jinja2 template contains variables and/or expressions, which get replaced with values when a template is rendered; and tags, which control the logic of the template. The template syntax is heavily inspired by Django and Python.
 - [Python for Networ Engineers](https://pyneng.readthedocs.io/en/latest/book/20_jinja2/index.html)
