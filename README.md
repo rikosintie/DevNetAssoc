@@ -1,6 +1,6 @@
 # DevNetAssoc
 
-Tools I used for the DevNet associate certification
+Tools I used for the DevNet associate certification 
 
 * [Chapter 1](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter01) - Introduction to Cisco DevNet Associate  
 * [Chapter 2](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter02) - Software Development and Design (Not Complete)  
