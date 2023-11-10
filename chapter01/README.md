@@ -1,8 +1,7 @@
 # Chapter 1 Introduction to Cisco DevNet Associate Certification  
 
-
 <p align="left" width="100%">
-    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter01/images/DevNet-Exam-Topics.png"> 
+    <img width="50%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter01/images/DevNet-Exam-Topics.png">
 </p>  
 
 Chapter 1 lays out why you should pursue the DevNet Associate certification. I will just say that automation isn't going away and if you stay in the field it's obvious that you are going to have to learn Python, Postman, and other tools of the developer.  

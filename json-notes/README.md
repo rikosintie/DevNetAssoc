@@ -4,6 +4,7 @@
 - [Links to json tutorials](#links-to-json-tutorials)
 - [Youtube Tutorials](#youtube-tutorials)
 - [JSON to Python Conversion](#json-to-python-conversion)
+- [Online JSON Conversion sites](#online-json-conversion-sites)
 - [Pandas](#pandas)
 
 ## Introduction
@@ -54,6 +55,19 @@ When you use json.load() or json.loads() to read JSON data it converts the JSON 
 | true           | True     |
 | false          | False    |
 | null           | None     |
+
+## Online JSON Conversion sites 
+
+[Convert CSV to JSON](https://www.convertcsv.com/csv-to-json.htm) - **Choose from the following 5 JSON conversions offered by this tool:**
+- CSV to JSON - array of JSON structures matching your CSV, nested JSON via column headers, and JSONLines (MongoDB) mode  
+- CSV to Keyed JSON - Generate JSON with the specified key field as the key value to a structure of the remaining fields, also known as an hash table or associative array. If the key field value is unique, then you have "keyvalue" : { object }, otherwise "keyvalue" : [ {object1}, {object2},... ]
+- CSV to JSON Array - An array of CSV values where the CSV values are in an array, or a structure with column names and data as an array
+- CSV to JSON Column Array - An array of CSV values where each column of values are in an array
+- Generate JSON via Template - Using our template engine, easily customize your JSON output NEW
+- Automatic detection of numeric values, logical values, and nulls
+- TSV to JSON
+
+[Nornir's conversion tool](https://textfsm.nornir.tech) - A swiss army knife of conversion tools. JSON/XML/XPATH/YAML conversion
 
 ## Pandas  
 
