@@ -24,6 +24,13 @@
 - [{JSON} Placeholder](https://jsonplaceholder.typicode.com) - A free fake API for testing and prototyping JSON objects.
 - [JSONPlacehoder Guide](https://jsonplaceholder.typicode.com/guide/) - How to use the JSONPlaceholder server
 - [JSON/YAML/XML Converter Site](https://textfsm.nornir.tech) - This site is awesome. You can take the output of a show command, for example "show interface status", and convert it to JSON, then paste the JSON into the next tab and get YAML and XML output!
+- [simplify json parsing with jsonata](https://www.packetcoders.io/simplify-json-parsing-with-jsonata/) - JSONata is a lightweight query and transformation language for JSON; it provides:
+  - Parsing: Easily pull the data from your payloads with minimal syntax.
+  - Built-in functions: Manipulate your data, for example, sum and join data without moving from JSONata into another language (such as Python).
+  - Path Transversal: Navigate nested objects using chained, wildcard, parent, and child selectors.
+  - Transformation: Generate new JSON payloads easily.
+  - Python Library: Use JSONata within Python using the jsonata library.
+  - Online Testing: Validate expressions in the JSONata Exerciser.
 
 **Nornir JSON/textFSM Converter**
 
