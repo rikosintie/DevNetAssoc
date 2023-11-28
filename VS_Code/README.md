@@ -1,4 +1,4 @@
-# VS Code Tips <!-- omit from toc -->  
+# VS Code Tips <!-- omit from toc -->
 
 Table of Contents
 
@@ -8,74 +8,75 @@ Table of Contents
 - [Comparing a saved file to the one in the editor](#comparing-a-saved-file-to-the-one-in-the-editor)
 - [VS Code Extensions](#vs-code-extensions)
 
-## Introduction  
+## Introduction
 
-I had been using Sublime Text for a long time and was reluctant to switch to VS Code but I finally decided to try it and I am fully onboard now! I still use Sublime Text for text files but even there, VS Code is winning out slowly but surely.  
+I had been using Sublime Text for a long time and was reluctant to switch to VS Code but I finally decided to try it and I am fully onboard now! I still use Sublime Text for text files but even there, VS Code is winning out slowly but surely.
 
 What did it for me was the VS Code Tutorial that I have listed in the "Useful Websites" section below. VS Code has become my favorite tool.
 
-## Useful websites  
+## Useful websites
 
-- [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)  
-This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.  
+- [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)
+This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
 - [VS Code Tutorial – Become More Productive](https://www.youtube.com/watch?v=heXQnM99oAI) - This tutorial is awesome. It's almost 6 hours long so you will have to do it in sections but it is worth doing.
+- [Change these VS Code default settings to make it even more awesome](https://blog.danskingdom.com/Visual-Studio-Code-default-settings-to-change) - This post is a collection of Visual Studio Code settings that I think are worth changing from their default values. This only includes native VS Code settings; no extensions or themes.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment) -
-I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell.  I had been creating virtual python environments in the terminal but the DevNet guide recommended doing it in VSCode. This article walks you through how to do it.  
+I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell.  I had been creating virtual python environments in the terminal but the DevNet guide recommended doing it in VSCode. This article walks you through how to do it.
 
-- [See unsaved changes in vscode](https://stackoverflow.com/questions/65874120/see-unsaved-changes-in-vscode)  
-Some good tips on editing unsaved files and using shortcuts in VSCode.  
+- [See unsaved changes in vscode](https://stackoverflow.com/questions/65874120/see-unsaved-changes-in-vscode)
+Some good tips on editing unsaved files and using shortcuts in VSCode.
 
-- [Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)  
-Microsoft's marketplace for VSCode extensions. There are a lot of useful extensions for VScode here. Most are free.  
+- [Extensions for the Visual Studio family of products](https://marketplace.visualstudio.com/vscode)
+Microsoft's marketplace for VSCode extensions. There are a lot of useful extensions for VScode here. Most are free.
 
-- [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)  
-The official documentation on the VSCode User Interface. It's worth some time reviewing this page.  
+- [User Interface](https://code.visualstudio.com/docs/getstarted/userinterface)
+The official documentation on the VSCode User Interface. It's worth some time reviewing this page.
 
-- [Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)  
-I have had this happen a couple times with VScode on Mac and Linux.  
+- [Resolving shell environment fails](https://code.visualstudio.com/docs/supporting/faq#_resolving-shell-environment-fails)
+I have had this happen a couple times with VScode on Mac and Linux.
 
-## Setting up the VSCode environment  
+## Setting up the VSCode environment
 
-VS Code has a rich set of editing tools. One feature I found really useful for the DevNet course is that you can open a folder and see all of the files in the VSCode explorer.  
+VS Code has a rich set of editing tools. One feature I found really useful for the DevNet course is that you can open a folder and see all of the files in the VSCode explorer.
 
-For this course, I created a new folder called _DevNet and then opened the folder in VSCode. For later chapters, I created folders called Meraki and DNA using `python -m venv meraki` and `python -m venv DNA`.  
+For this course, I created a new folder called _DevNet and then opened the folder in VSCode. For later chapters, I created folders called Meraki and DNA using `python -m venv meraki` and `python -m venv DNA`.
 
 Then I could create the python scripts and any other documents in the repsective folders.
 
-## Comparing a saved file to the one in the editor  
+## Comparing a saved file to the one in the editor
 
-On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.  
+On the VSCode "view" menu you can turn on the Explorer (shortcut ↑⌘e) or you can left click on the icon that looks like two documents on the top left of VSCode.
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-View-Menu.png">  
-</p>  
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-View-Menu.png">
+</p>
 
-That will open a pane on the left. On the file menu, select "Open Folder" and select a folder on your file system. Here is what my _DevNet folder looks like:  
+That will open a pane on the left. On the file menu, select "Open Folder" and select a folder on your file system. Here is what my _DevNet folder looks like:
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-DevNet-Folder.png"> 
-</p>  
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-DevNet-Folder.png">
+</p>
 
 Notice at the very top is the "Open Editors" pane. If yours is not on, you can right click over a folder and select "Open Editors".
 
-Notice in the "Open Editors" pane that the file test.py has a white dot next to it. That means there are unsaved changes.  
+Notice in the "Open Editors" pane that the file test.py has a white dot next to it. That means there are unsaved changes.
 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/Unsaved-changes.png"> 
-</p>  
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/Unsaved-changes.png">
+</p>
 
-To view the differences between the file on disk and the file in VScode, right click over test.py and select "Compare with Saved [⌘K D]".  
+To view the differences between the file on disk and the file in VScode, right click over test.py and select "Compare with Saved [⌘K D]".
 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-Compare.png"> 
-</p>  
+    <img width="40%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/chapter03/images/VS-Compare.png">
+</p>
 
 A second editor window will open up and the unsaved file will be on the right.
 
-## VS Code Extensions  
-Microsoft maintains its own marketplace for [extensions](https://marketplace.visualstudio.com/VSCode). There are tens of thousands of extensions so obviously I can't review them here.  
+## VS Code Extensions
+Microsoft maintains its own marketplace for [extensions](https://marketplace.visualstudio.com/VSCode). There are tens of thousands of extensions so obviously I can't review them here.
 
 The extensions that I use:
 
-- [autoDocstring: VSCode Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring&ssr=false#review-details) - When you are in a function and type """ or ''' (use the extension settings to configure which) it will autopopulate the recommended fields.  Also in settings you can select the type of fields. There is a Python PEP257 but I use the Google option. This [article](https://stackabuse.com/common-docstring-formats-in-python/) discusses common docstring formats for Python.  
+- [autoDocstring: VSCode Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring&ssr=false#review-details) - When you are in a function and type """ or ''' (use the extension settings to configure which) it will autopopulate the recommended fields.  Also in settings you can select the type of fields. There is a Python PEP257 but I use the Google option. This [article](https://stackabuse.com/common-docstring-formats-in-python/) discusses common docstring formats for Python.
 
 - [Better Jinja](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml&ssr=false#review-details) - You will find yourself using Jinja2 a lot with Ansible and just templating in general. This extension provides "Syntax highlighting for jinja(2) including HTML, Markdown, YAML and other templates."
 - [Blockman - Highlight Nested Code Blocks](https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman) - VS Code Extension For Nested Block Highlighting. I like it so much that I donated to the author.
@@ -85,9 +86,9 @@ The extensions that I use:
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) - This extension colorizes the indentation in front of your text, alternating four different colors on each step. Some may find it helpful in writing code for Python, Nim, Yaml, and probably even filetypes that are not indentation dependent. I modified the setting to make the lines wider and darker.
 - [Jinja Snippets](https://marketplace.visualstudio.com/items?itemName=noxiz.jinja-snippets) - A large collection of snippets for Jinja2. For information on Jinja2 read this [turorial](https://jinja.palletsprojects.com/en/3.0.x/templates/).
 - [Juniper Junos Extension](https://marketplace.visualstudio.com/items?itemName=codeout.vscode-junos) - A syntax highlighter for Junos. You must use .conf for the extension to work.
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more). Markdown is a very popular language for creating documentation. It is used by GitHub and you will have to be skilled at markdown to efficiently make README.md files on GitHub.  
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) - All you need for Markdown (keyboard shortcuts, table of contents, auto preview and more). Markdown is a very popular language for creating documentation. It is used by GitHub and you will have to be skilled at markdown to efficiently make README.md files on GitHub.
 
-    One feature that Markdown all in one doesn't have is a table generator. I use [Tables Generator](https://www.tablesgenerator.com/markdown_tables#) to create tables.  
+    One feature that Markdown all in one doesn't have is a table generator. I use [Tables Generator](https://www.tablesgenerator.com/markdown_tables#) to create tables.
 - [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) - Changes VS Code's built-in markdown preview to match GitHub's styling. Of Course, Github uses its own markdown flavor.
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) - markdownlint is an extension for the Visual Studio Code editor that includes a library of rules to encourage standards and consistency for Markdown files.
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - This extension adds icons for files and folder. At first I laughed and said "Why?". But I have to admit they look nice.
