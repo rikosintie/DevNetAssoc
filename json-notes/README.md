@@ -1,4 +1,4 @@
-# My JSON notes<!-- omit from toc -->  
+# My JSON notes<!-- omit from toc -->
 
 - [Introduction](#introduction)
 - [Links to json tutorials](#links-to-json-tutorials)
@@ -11,9 +11,10 @@
 
  JSON is the data structure used with API requests and responses. You must have
  a good understanding of json and python to successfully work as NetDevOps
- engineer.  
+ a good understanding of json and python to successfully work as NetDevOps
+ engineer.
 
-## Links to json tutorials  
+## Links to json tutorials
 
 - [JavaScript JSON](https://www.geeksforgeeks.org/javascript-json/) - What is JSON?
 - [Learn {JSON} in 10 minutes](https://www.youtube.com/watch?v=iiADhChRriM) - A youtube video tutorial
@@ -35,20 +36,20 @@
 **Nornir JSON/textFSM Converter**
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech-textfsm.png">  
-</p>  
+    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech-textfsm.png">
+</p>
 
 **Nornir JSON/YAML/XML Converter**
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech.png">  
-</p>  
+    <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech.png">
+</p>
 
-## Youtube Tutorials  
+## Youtube Tutorials
 
 - [Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM) - This is a good introduction to JSON (10 minutes)
 - [Python Tutorial: Working with JSON Data using the json Module](https://www.youtube.com/watch?v=9N6a-VLBa2I&t=308s) - A deeper dive into JSON (20 minutes)
 
-## JSON to Python Conversion  
+## JSON to Python Conversion
 
 When you use json.load() or json.loads() to read JSON data it converts the JSON data to python using the following types:
 
@@ -63,10 +64,10 @@ When you use json.load() or json.loads() to read JSON data it converts the JSON 
 | false          | False    |
 | null           | None     |
 
-## Online JSON Conversion sites 
+## Online JSON Conversion sites
 
 [Convert CSV to JSON](https://www.convertcsv.com/csv-to-json.htm) - **Choose from the following 5 JSON conversions offered by this tool:**
-- CSV to JSON - array of JSON structures matching your CSV, nested JSON via column headers, and JSONLines (MongoDB) mode  
+- CSV to JSON - array of JSON structures matching your CSV, nested JSON via column headers, and JSONLines (MongoDB) mode
 - CSV to Keyed JSON - Generate JSON with the specified key field as the key value to a structure of the remaining fields, also known as an hash table or associative array. If the key field value is unique, then you have "keyvalue" : { object }, otherwise "keyvalue" : [ {object1}, {object2},... ]
 - CSV to JSON Array - An array of CSV values where the CSV values are in an array, or a structure with column names and data as an array
 - CSV to JSON Column Array - An array of CSV values where each column of values are in an array
@@ -76,9 +77,9 @@ When you use json.load() or json.loads() to read JSON data it converts the JSON 
 
 [Nornir's conversion tool](https://textfsm.nornir.tech) - A swiss army knife of conversion tools. JSON/XML/XPATH/YAML conversion
 
-## Pandas  
+## Pandas
 
-Pandas is a library for working with data structures. It allows you to read and write Excel files in Python.  
+Pandas is a library for working with data structures. It allows you to read and write Excel files in Python.
 - [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 - [Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 - [Pandas.read_excel](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
