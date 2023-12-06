@@ -35,7 +35,7 @@ old %s and .format. This Tutorial is pretty good.
 
 [Python String Formatting](https://thepythonguru.com/python-string-formatting/)
 [Python String Format Cookbook](https://mkaz.blog/code/python-string-format-cookbook/#f-strings)
-These two sites do a great job of explaining string formatting. The Cookbook has a section on using f strings. F Strings were introduced in 3.6 and are much easier to use. I rewrote the print statement in the first python script to use f strings as an excercise. It's explained in the chapter 8 README.
+These two sites do a great job of explaining string formatting. The Cookbook has a section on using f strings. F Strings were introduced in 3.6 and are much easier to use. I rewrote the print statement in the first python script to use f strings as an exercise. It's explained in the chapter 8 README.
 
 [Python's Built-in Functions](https://docs.python.org/3/library/functions.html)
 There are a lot of built in functions in Python. This is the official python documentation on them. Normally, I find a function here and then Google it. I find the official docs hard to understand.
