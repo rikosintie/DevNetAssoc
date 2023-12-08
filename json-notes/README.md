@@ -2,6 +2,7 @@
 
 - [Introduction](#introduction)
 - [Links to json tutorials](#links-to-json-tutorials)
+- [Tools](#tools)
 - [Youtube Tutorials](#youtube-tutorials)
 - [JSON to Python Conversion](#json-to-python-conversion)
 - [Online JSON Conversion sites](#online-json-conversion-sites)
@@ -33,6 +34,8 @@
   - Python Library: Use JSONata within Python using the jsonata library.
   - Online Testing: Validate expressions in the JSONata Exerciser.
 
+## Tools
+
 **Nornir JSON/textFSM Converter**
 
 <p align="center" width="100%">
@@ -43,6 +46,14 @@
 <p align="center" width="100%">
     <img width="80%" src="https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech.png">
 </p>
+
+**F(x)**
+
+Fx is a dual-purpose command-line tool tailored for JSON, providing both a terminal-based JSON viewer and a JSON processing utility.
+
+While the JSON viewer is crafted in Go and functions without external dependencies, the JSON processing tool is developed in JS, compatible with Node.js and Deno.
+
+[F(x) Getting Started](<https://fx.wtf/getting-started>)
 
 ## Youtube Tutorials
 
