@@ -55,6 +55,13 @@ While the JSON viewer is crafted in Go and functions without external dependenci
 
 [F(x) Getting Started](<https://fx.wtf/getting-started>)
 
+**jq**
+
+jq is a lightweight and flexible command-line JSON processor.
+
+[jq documentation](https://jqlang.github.io/jq/)
+
+
 ## Youtube Tutorials
 
 - [Learn JSON in 10 Minutes](https://www.youtube.com/watch?v=iiADhChRriM) - This is a good introduction to JSON (10 minutes)
