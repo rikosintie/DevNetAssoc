@@ -101,3 +101,8 @@ Pandas is a library for working with data structures. It allows you to read and 
 - [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 - [Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 - [Pandas.read_excel](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
+
+<figure>
+      <img src=https://github.com/rikosintie/DevNetAssoc/blob/main/json-notes/images/textfsm-nornir-tech.png alt=Image Test width=60% height=60%>
+      <figcaption>Your caption here, <b>with</b> <code>HTML</code> if you want</figcaption>
+</figure>
