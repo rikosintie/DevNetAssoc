@@ -104,6 +104,6 @@ Pandas is a library for working with data structures. It allows you to read and 
 - [Pandas.read_excel](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_excel.html)
 
 <figure>
-      <img src=https://github.com/rikosintie/Ubuntu4NetworkEngineers/blob/main/images/Dock-square.png align="center" alt="Image Test" width=60% height=60%>
+      <img src=https://github.com/rikosintie/Ubuntu4NetworkEngineers/blob/main/images/Dock-square.png text-align="center" alt="Image Test" width=10% height=10%>
       <figcaption><b>Your caption here</b>
 </figure>
