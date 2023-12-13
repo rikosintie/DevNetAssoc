@@ -105,5 +105,5 @@ Pandas is a library for working with data structures. It allows you to read and 
 
 <figure>
       <img src=https://github.com/rikosintie/DevNetAssoc/blob/main/VS_Code/images/textfsm-nornir-tech.png align=center alt="Image Test" width=10% height=10%>
-      <figcaption>style="text-align: center"><b>Your caption here</b>
+      <figcaption style="text-align: center"><b>Your caption here</b>
 </figure>
