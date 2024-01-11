@@ -8,7 +8,7 @@ Tools I used for the DevNet associate certification
 * [Chapter 4](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter04) - Python Functions, Classes and Modules (Not Complete)
 * [Chapter 5](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter05) - Working with Data in Python (Not Complete)
 * [Chapter 6](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter06) - Application Programming Interfaces (APIs) (Not Complete)
-* [Chapter 7]() - RESTful API Requests and Responses (Not Complete)
+* [Chapter 7](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter07) - RESTful API Requests and Responses (Not Complete)
 * [Chapter 8](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter08) - Cisco Enterprise Networking Management Platforms and APIs
 * [Chapter 9](https://github.com/rikosintie/DevNetAssoc/tree/main/chapter09) - Cisco Data Center and Compute Management Platforms and APIs (Not Complete)
 * [My JSON Notes](https://github.com/rikosintie/DevNetAssoc/tree/main/json-notes) - My notes for learning JSON
