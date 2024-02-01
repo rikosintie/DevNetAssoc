@@ -19,6 +19,7 @@ What did it for me was the VS Code Tutorial that I have listed in the "Useful We
 - [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)
 This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
 - [VS Code Tutorial – Become More Productive](https://www.youtube.com/watch?v=heXQnM99oAI) - This tutorial is awesome. It's almost 6 hours long so you will have to do it in sections but it is worth doing.
+- [VSCode - Introduction](https://www.w3schools.io/editor/vscode-introduction/) - Unleash your coding potential with Visual Studio Code editor
 - [Change these VS Code default settings to make it even more awesome](https://blog.danskingdom.com/Visual-Studio-Code-default-settings-to-change) - This post is a collection of Visual Studio Code settings that I think are worth changing from their default values. This only includes native VS Code settings; no extensions or themes.
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-virtual-environment) -
 I use Microsoft's Visual Studio Code as the Integrated Development Environment (IDE) for Python and PowerShell.  I had been creating virtual python environments in the terminal but the DevNet guide recommended doing it in VSCode. This article walks you through how to do it.
