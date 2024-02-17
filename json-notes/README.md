@@ -18,6 +18,7 @@
 ## Links to json tutorials
 
 - [JavaScript JSON](https://www.geeksforgeeks.org/javascript-json/) - What is JSON?
+- [Working with the JSON data format](https://www.linux-magazine.com/Issues/2021/247/JSON-Deep-Dive) - We'll take a close look at JSON format and some of the free tools you can use for reading and manipulating JSON data.
 - [Learn {JSON} in 10 minutes](https://www.youtube.com/watch?v=iiADhChRriM) - A youtube video tutorial
 - [How can I convert JSON to CSV](https://stackoverflow.com/questions/1871524/how-can-i-convert-json-to-csv)
 - [ntc-templates](https://github.com/networktocode/ntc-templates/tree/master/ntc_templates/templates) - Convert "show run" commands to json
