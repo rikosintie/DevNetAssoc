@@ -15,6 +15,8 @@ Tools I used for the DevNet associate certification
 * [VS Code Tips](https://github.com/rikosintie/DevNetAssoc/tree/main/VS_Code) - The VS Code tutorials that I used.
 * [Jinja2 Tutorials](https://github.com/rikosintie/DevNetAssoc/tree/main/Jinja2) - Jinja2 is a templating language for python code.
 
+The packet pushers network has a blog for [Open Source Networking Projects](https://packetpushers.net/blog/open-source-networking-projects/). As you move along your NetDevOps journey this will be a good resource.
+
 This is from Greg Ferro of the Packet Pushers podcasting network. I think it really applies to studying for the DevNet Associate exam.
 
 Herewith is every self help book without having to read them all, plus a short note from me:
