@@ -21,7 +21,7 @@ The packet pushers network has a blog for [Open Source Networking Projects](http
 
 As you move along your NetDevOps journey this will be a good resource.
 
-The packet Pushers network also has a [Heavy networking podcast](https://packetpushers.net/podcast/heavy-networking/) that is worth listening to.
+The Packet Pushers network also has a [Heavy networking podcast](https://packetpushers.net/podcast/heavy-networking/) that is worth listening to. There is a menu on the top right "Listen" that lists all of the Packet Pusher podcasts.
 
 This is from Greg Ferro of the Packet Pushers podcasting network. I think it really applies to studying for the DevNet Associate exam.
 
