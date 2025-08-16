@@ -25,7 +25,7 @@ Microsoft Links
 ----------------------------------------------------------------
 
 [VS Code installation](https://mwhubbard.blogspot.com/2021/03/apple-macbook-air-m1-for-network_15.html#VSCode)
-This is from my blog. It covers install VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
+This is from my blog. It covers installing VSCode, picking a Theme, setting up the Pylance linter, etc. The blog is for macOS but everything after the basic install applies to Mac/Linux/Windows.
 
 ----------------------------------------------------------------
 
